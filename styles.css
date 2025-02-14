@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F3EDE4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+#list-title {
+    width: 100%;
+    font-size: 22px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding: 8px;
+    background: #FAF8F6;
+    border-radius: 10px;
+}
+
+#title-display {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.todo-box {
+    background: #FFF;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: left;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#new-todo {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #FAF8F6;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FAF8F6;
+    margin: 6px 0;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    accent-color: #333;
+}
+
+li button {
+    background: #E57373;
+    font-size: 14px;
+    padding: 6px 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+li button:hover {
+    background: #D32F2F;
+}
+
+.clear-btn {
+    background: #D32F2F;
+    margin-top: 15px;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.clear-btn:hover {
+    background: #B71C1C;
+}
